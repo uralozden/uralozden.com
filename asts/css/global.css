@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+@import 'reset.css';
+
+body{
+	background: #212121;
+}
+
+h1{
+	font-size: 20px;
+	color: #2e2e2e;
+	font-family:helvetica,arial;
+	margin:10px 0 10px 20px;
+	font-size: 95px;
+	text-align: right;
+	float: right;
+	position: fixed;
+	right: 10px;
+	z-index: 111;	
+}
+h1 span{
+	font-size: 12px;
+	color: #2e2e2e;
+	display: block;
+	
+}
+p{
+	font-family: lucida grande,helvetica,arial;
+	line-height: 1.4em;
+	font-size: 12px;
+	color:#14ff1f;
+	display: block;
+	margin-bottom:5px;
+	position: relative;
+	z-index: 4444;
+	width: 50%;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+ 	font-family: lucida grande,helvetica,arial;
+ 	color: #1cd;
+}
+
+span{
+	text-decoration: none;
+	font-size: 12px;
+ 	font-family: lucida grande,helvetica,arial;
+ 	color: #f90;
+}
+
+.clear{
+	clear: both;
+}
+input{
+	width: 100%;
+	height:20px;
+	display: block;
+	overflow: hidden;
+	border:none;
+	background: #212121;
+	border-top: 1px solid #888;
+	position: fixed;
+	bottom: 0;
+	color:#14ff1f;
+	font-family: lucida grande,helvetica,arial;
+	padding:0 15px;
+	z-index: 8888;
+	-webkit-box-shadow: 0 0 10px 3px #008407;
+	box-shadow: 0 0 10px 3px #008407;
+}
+
+.tagclose{
+	position: fixed;
+	left: 5px;
+	bottom: 5px;
+	color:#14ff1f;
+	font-family: lucida grande,helvetica,arial;	
+	z-index: 9999;
+	font-size: 12px;
+}
+
+section{
+	padding:5px;
+}
+
+.content{
+	padding-bottom: 40px;
+}
