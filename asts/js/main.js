@@ -18,7 +18,7 @@ $(document).keydown(function(key){
     		$(".line").val("");
         return false;
    		}else if (arg == "about") {
-    		$(".content").append("<p>ural-ozden:~ guest$ "+arg+"</p><p>Hi my name is ural özden. I'm living from İstanbul/Turkey. I'm software developer at <a href='http://www.somedya.com' target='_blank'>somedya.</a> I like to PHP,Python, Server Systems, Front End Development {html5, css, less, javascript, jquery, angular.js, Backbone.js, Node.js}, Objective-C, Linux, MacosX, Raspberry Pi, Arduino_,Fender,Gibson,Marshall,etc...</p>");
+    		$(".content").append("<p>ural-ozden:~ guest$ "+arg+"</p><p>Hi my name is ural özden. I'm living from İstanbul/Turkey. I'm software developer at <a href='http://www.somedya.com' target='_blank'>somedya.</a> I like to PHP,Python, Server Systems, Front End Development {html5, css3, less, javascript, jquery, angular.js, Backbone.js, Node.js}, Objective-C, Linux, MacosX, Raspberry Pi, Arduino_,Fender,Gibson,Marshall,etc...</p>");
     		$(".line").val("");
         return false;
    		}else if (arg == "social") {
